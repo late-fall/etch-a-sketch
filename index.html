@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Etch a Sketch</h1>
+        <div class="buttons">
+            <button class="color">BLACK</button>
+            <button class="random">RANDOM</button>
+            <button class="eraser">ERASER</button>
+            <button class="clear">CLEAR</button>
+        </div>
+        <div class="container">
+        </div>
+        <h2>Grid Size</h2>
+        <input type="range" class="grid-size" min="1" max="64" step="1" value="16">
+        <footer>
+            Copyright © 
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            late-fall
+            <a href="https://github.com/late-fall"><i class="fa fa-github fa_custom"></i></a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
